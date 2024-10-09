@@ -1,0 +1,120 @@
+* {
+    font-family: sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    margin: 0;
+    font-family: cursive;
+  }
+  
+  #app {
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 30px;
+    margin: auto;
+  }
+  
+  .input_todo {
+    display: flex;
+  }
+  
+  .sub-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .input-text {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .btn {
+    padding: 11px 20px;
+    border-radius: 8px;
+    background-color: blue;
+    border: 1px solid blue;
+    color: #fff;
+  }
+  
+  .btn:hover {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid blue;
+    cursor: pointer;
+  }
+  
+  .list {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .button span:hover {
+    cursor: pointer;
+    color: #ff0000;
+  }
+  
+  .checked {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.5); /* Làm mờ chữ */
+  }
+  
+  .complete-text {
+    color: #00cd00;
+  }
+  
+  .clear-task {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  /* .clear-task:hover {
+      color: #8f8f8f;
+      cursor: pointer;
+  } */
+  
+  .disabled {
+    color: grey;
+    cursor: not-allowed;
+  }
+  
+  .btns-filter .active {
+    background-color: blue;
+    color: #fff;
+  }
+  
+  .btn-filter {
+    background-color: #f7f7f7;
+    padding: 6px;
+    color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    margin:  0 3px;
+  }
+  
+  .btn-filter:hover {
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+  }
